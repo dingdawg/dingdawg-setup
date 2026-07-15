@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
   "name": "io.github.dingdawg/dingdawg-setup",
   "description": "One command to set up any DingDawg agent. Choose your model, connect your tools, start improving.",
   "repository": {
