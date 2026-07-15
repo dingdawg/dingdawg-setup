@@ -1,0 +1,51 @@
+{
+  "name": "dingdawg-setup",
+  "version": "1.0.0",
+  "description": "One command to set up any DingDawg agent. Choose your model, connect your tools, start improving.",
+  "main": "dist/index.js",
+  "bin": {
+    "dingdawg-setup": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepublishOnly": "bash ../../ip-gate.sh ./dist"
+  },
+  "keywords": [
+    "dingdawg",
+    "mcp",
+    "ai-agents",
+    "claude-code",
+    "cursor",
+    "vscode",
+    "setup",
+    "installer",
+    "governance-receipts",
+    "receipts",
+    "audit-trail",
+    "tamper-proof",
+    "ai-governance",
+    "responsible-ai",
+    "llm-governance",
+    "signed-receipts"
+  ],
+  "author": "DingDawg",
+  "license": "MIT",
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/prompts": "^2.4.9",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
